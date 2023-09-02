@@ -1,0 +1,8 @@
+r.get("https://demo.actitime.com/login.do");
+		boolean a=driver.findElement(By.id("toPasswordRecoveryPageLink")).isDisplayed();
+		System.out.println(a);
+		
+	boolean	b=driver.findElement(By.id("toLoginPageLink")).isDisplayed();
+	System.out.println(b);
+ 
+	}
